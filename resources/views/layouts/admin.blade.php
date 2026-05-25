@@ -11,6 +11,10 @@
 <body class="bg-gray-100 min-h-screen">
 
     <!-- Sidebar -->
+    <a href="{{ route('admin.contents.index') }}"
+        class="block px-4 py-2 rounded-lg text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 font-medium">
+        Konten Website
+    </a>
     <div class="flex">
         <aside class="w-64 bg-white shadow-md min-h-screen p-6">
             <h2 class="text-xl font-bold text-gray-800 mb-8">Admin Panel</h2>
